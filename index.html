@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="clock">11:26:30</div>
+        <div id="clock2">00:00:00</div>
+        <div id="buttons-container">
+            <button id="default-button"onclick="buttonEvent()">24/12</button>
+            <button id="default-button2" onclick="stopwatch()">Stopwatch</button>
+            <button id="default-button3" onclick="timeronclick()">Timer</button>
+            <button id="back-button" onclick="backButton()">back</button>
+            <button id="start-button" onclick="startStopWatch()">start</button>
+            <button id="stop-button" onclick="stopStopWatch()">stop</button>
+            <button id="pause-button" onclick="pauseStopWatch()">pause</button>
+            <button id="lap-button">lap</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
